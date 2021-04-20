@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="https://docs.google.com/spreadsheets/d/1D1aiA5ZuIvlW-RcRPAP5stCaZtDzRI8EflwX_25NR4E/edit#gid=0" autocomplete="off">
+        <fieldset>
+            <legend style="text-align: center;"><h2>Online Registration Form</h2></legend>
+        <label for="first name">First Name</label><br>
+        <input type="text" name="fname" placeholder="Your First Name"><br>
+        <label for="Last name">Last name</label><br>
+        <input type="text" name="lname" placeholder="your First Name"><br>
+        <label for="email">E-mail</label><br>
+        <input type="email" name="email" placeholder="Eg.:Example@gmail.com"><br>
+        <label for="Gender">Gender:</label><br>
+        <input type="radio" name="gender" value="male" checked>male
+        <input type="radio" name="gender" value="female">female
+        <input type="radio" name="gender" value="others">Others <br>
+        <label for="subject">Choose any 2</label><br>
+        <input type="checkbox" name="subject" value="Web">Web Designing<br>
+        <input type="checkbox" name="subject" value="Graphics">Graphic Designing<br>
+        <input type="checkbox" name="subject" value="Diploma">Diploma<br>
+        <input type="checkbox" name="subject" value="Digital Marketing">Digital marketing <br>
+        <label for="district">District</label>
+        <select name="district" id="">
+            <option value="Kathmandu">Kathmandu</option>
+            <option value="Bhaktapur">Bhaktapur</option>
+            <option value="Kaski">Kaski</option>
+            <option value="mustang">mustang</option>
+            <option value="chitwan">chitwan</option>
+            <option value="Pokhara">Pokhara</option>
+        </select><br>
+        <label for="dob">Date of Birth</label><br>
+        <input type="date" name="dob"> <br><br>
+        <label for="phone">Phone Number</label><br>
+        <input type="Number" name="phone" placeholder="valid contact number"><br>
+        <label for="file">choose image</label><br>
+        <input type="file" name="image" accept=".jpg"><br>
+        <label for="password">Password</label><br>
+        <input type="password" name="pass" placeholder="Password"><br>
+        <label for="msg">Feedback</label><br>
+        <textarea name="msg" id="" cols="30" rows="10" placeholder="Comment here......."></textarea><br>
+        <input type="submit" name="submit" value="register">
+        <input type="Reset" value="Reset">
+    </fieldset>
+    </form>
+</body>
+</html>
